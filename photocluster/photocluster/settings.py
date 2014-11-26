@@ -1,5 +1,5 @@
 """
-Django settings for web project.
+Django settings for photocluster project.
 
 For more information on this file, see
 https://docs.djangoproject.com/en/1.6/topics/settings/
@@ -17,7 +17,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 # See https://docs.djangoproject.com/en/1.6/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '(0_lxnw6^dkfqdg@=+f1^64f=z2ct)*&&vhogjyzk!pk)82!g4'
+SECRET_KEY = '=*j!!t_v@4$2#=@!k9foyg)-^yw&r-kxr0s160jxf1ohqun9w4'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -47,9 +47,9 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
-ROOT_URLCONF = 'web.urls'
+ROOT_URLCONF = 'photocluster.urls'
 
-WSGI_APPLICATION = 'web.wsgi.application'
+WSGI_APPLICATION = 'photocluster.wsgi.application'
 
 
 # Database
